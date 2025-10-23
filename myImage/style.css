@@ -1,0 +1,45 @@
+/* style.css */
+
+/* Center everything on the page */
+body {
+    user-select: none;
+    
+   
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #222; /* dark background for contrast */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the image */
+#myImage {
+    width: 350px; /* bigger than original for visibility */
+    margin-left: 35%;
+    padding: 30px;
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+/* Style the buttons */
+button {
+    background-color: #ff6200;
+    flex-direction: row;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #16dcff;
+    transform: scale(1.05);
+}
